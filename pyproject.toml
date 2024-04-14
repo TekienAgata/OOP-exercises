@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "oop training"
+version = "0.1.0"
+description = "Training OOP based on exercises by UKEN professor"
+authors = ["Agata Tekień"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+pytest = "^8.1.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
