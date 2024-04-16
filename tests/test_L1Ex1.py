@@ -1,5 +1,6 @@
-from L1Ex1 import Coin, coin_game
 import pytest
+
+from L1Ex1 import Coin, coin_game
 
 
 def test_coin_init():
