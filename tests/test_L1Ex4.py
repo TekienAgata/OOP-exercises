@@ -39,3 +39,11 @@ def test_take_too_much():
     with pytest.raises(ValueError) as err:
         a1.take(99999999)
     assert str(err.value) == "Not enough balance"
+
+
+def test_str(capsys):
+    a1 = Account(18, "A. B.")
+    print(str(a1))
+    out, err = capsys.readouterr()
+    assert out.strip() == "Balance: 18, name: A. B."
+    assert str(a1) == "Balance: 18, name: A. B."
