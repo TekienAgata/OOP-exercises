@@ -1,5 +1,3 @@
-import pytest
-
 from L1Ex2 import Sponge
 
 

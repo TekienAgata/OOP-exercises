@@ -1,5 +1,3 @@
-import pytest
-
 from L1Ex6 import Time
 
 
